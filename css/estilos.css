@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/**********HEADER*********/
+header{
+    margin: auto;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+header img{
+    margin: 0 30%;
+    width:40%
+}
+ul, ol{
+    list-style: none;
+    }
+.principal li a {
+    background: #005fbf;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    width:100%;
+}
+
+.principal li a:hover {
+    background: #097df1;
+}
+.principal > li {
+display: inline-block;
+width: 20%;
+text-align: center;
+margin-right: -10px;
+}
+.principal li ul {
+    display: none;
+    position: absolute;
+    min-width: 19.7%;
+}
+.principal li:hover > ul {
+display: block;
+}
+
+/******** CONTENIDO *********/
+.margen{
+    margin: auto;
+    max-width: 80%;
+}
+.margen img{
+    width: 40%;
+    float: right;
+    margin-left: 100px;
+}
+.margen h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    width: 55%;
+    float: left;
+    text-align: center;
+}
+.objetivos{
+    float: left;
+    width: 50%;
+}
+h2 {
+    margin-bottom: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.especificos{
+    margin-top: 30px;
+}
+.espacio{
+    margin-bottom: 15px;
+    text-align: justify;
+}
+.vineta{
+    margin-left: 30px;
+}
+
+/****** FOOTER **********/
+footer{
+    width: 100%;
+    margin-top: 750px;
+    background:#005fbf;
+    color: white;
+    padding-bottom: 25px;
+}
+footer p{
+    width: 60%;
+}
+footer H2{
+    margin-left: 120PX;
+    margin-top: 140px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+footer p{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+footer a{
+    float: right;
+    margin-right: 40px;
+    font-size: 25px;
+    margin-top: -60px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#sfchnfkfphywkysymkp2b4ah4eexngpjcnw {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+/*     LECTURA INTRODUCCION  */
+
+.contenido-lectura-introduccion{
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.seg{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.texto-introduccion{
+    margin-bottom: 20px;
+}
+.video-introduccion-youtube{
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin-top: -500px;
+}
+.contenido-lectura-introduccion p{
+width: 50%;
+}
+.fintro {
+    margin-top: 1000px;
+}
+
+/** LECTURA PELIGRO **/
+
+
+.contenido-lectura-peligros{
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.seg{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.texto-peligros{
+    margin-bottom: 20px;
+}
+.video-peligros-youtube{
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin-top: -500px;
+}
+.contenido-lectura-peligros p{
+width: 50%;
+}
+.fpeligros {
+    margin-top:1000px;
+}
+
+/*     LECTURA PRECAUCIONES  */
+
+.contenido-lectura-precauciones{
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.seg{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.texto-precauciones{
+    margin-bottom: 20px;
+}
+.video-precauciones-youtube{
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin-top: -400px;
+}
+.contenido-lectura-precauciones p{
+width: 50%;
+}
+
+.fprecauciones {
+    width: 100%;
+    margin-top: 3000px;
+    background:#005fbf;
+    color: white;
+    padding-bottom: 25px;
+}
+
+/*     LECTURA ANTIVIRUS  */
+
+.contenido-lectura-antivirus{
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.seg{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.texto-antivirus{
+    margin-bottom: 20px;
+}
+.video-antivirus-youtube{
+    float: right;
+    text-align: right;
+    width: 40%;
+    margin-top: -850px;
+}
+.contenido-lectura-antivirus p{
+width: 50%;
+}
+.fraude {
+    width: 50%;
+    float: right;
+    margin-top: -400px;
+    margin-right: -100px;
+}
+footer.fantivirus {
+    width: 100%;
+    margin-top: 1100px;
+    background:#005fbf;
+    color: white;
+    padding-bottom: 25px;
+}
+
+/** LECTURA CONCLUSIONES**/
+
+
+.contenido-lectura-conclusiones{
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.seg{
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+.texto-conclusiones{
+    margin-bottom: 20px;
+}
+
+.contenido-lectura-conclusiones p{
+width: 50%;
+}
+.seguridad {
+    width: 40%;
+    float: right;
+    margin-top: -450px;
+    margin-right: 100px;
+}
+
+/** LECTURA PODCASTS**/
+
+
+.pmargen {
+    text-align-last: center;
+    margin-top: 50px;
+}
+.apodcasts {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.podseg {
+    text-align: center;
+    margin-bottom: 80px;   
+}
+.fpodcasts {
+    width: 100%;
+    margin-top: 250px;
+    background:#005fbf;
+    color: white;
+    padding-bottom: 25px;
+}
+
+/** LECTURA VIDEOS[multimedia]**/
+
+.smargen {
+    text-align-last: center;
+    margin-top: 50px;
+}
+.svideo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.segan {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sseg {
+    text-align: center;
+margin-bottom: 50px;
+}
+.sees {
+    text-align: center;
+}
+.ssegu {
+    width: 100%;
+    margin-top: 200px;
+    background:#005fbf;
+    color: white;
+    padding-bottom: 25px;
+}
+
+/** ACTIVIDAD PREGUNTAS**/
+
+.slectura1   {
+    text-align-last: center;
+    margin-top: 50px;
+}
+.ssegulectura {
+    width: 100%;
+    margin-top: 250px;
+    background:#005fbf;
+    color: white;
+    padding-bottom: 25px;   
+}
+LECTURA PRECAUCIONES  */
+
+.contenido-lectura-preguntas{
+    float: left;
+    width: 80%;
+    margin-top: 60px;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+.seg{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+.texto-preguntas{
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 50px;  
+}
+.contenido-lectura-preguntas p{
+width: 50%;
+}
+.preg {
+    margin-top: -50px;
+}
+
+/***** ACTIVIDADES VIDEOS ******/
+
+.actividades-video {
+    margin-top:80px;
+    text-align: center;
+}
+
+.titulo-actividades-video h2{
+    font-size:50px;
+    margin-bottom: 80px;
+}
+
+.actividades-video iframe {
+    margin-bottom: 40px;
+}
+
+
+/****  AUTORES!  *****/
+
+.fautores {
+    margin-top: 80px;
+}
+
+.contenido-autores {
+    text-align: center;
+}
+
+.contenido-autores h1 {
+    font-weight: 200;
+    margin-top:80px; 
+    font-size: 60px;
+}
+
+.contenido-autores h2 {
+    font-weight: 200;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom:0;
+}
+
+.contenido-autores h3 {
+    font-weight: 200;
+    font-size: 28px;
+    margin-top:10px;
+}
+
+.perfil {
+    width: 10%;
+    margin-top: 50px;
+}
